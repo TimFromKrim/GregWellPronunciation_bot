@@ -22,7 +22,11 @@ const start = () => {
 		var testWord = text1.toLowerCase();
 	
 	if(text === '/start'){
-		return bot.sendMessage(charID, `Привет, ${FirstName} ${LastName}!  Это тестовая версия! Я могу прислать тебе правильное произношение английского слова, если знаю его! Просто напиши мне одно слово на английском в чат! Доступные слова: `);
+		return bot.sendMessage(charID, `Привет, ${FirstName} ${LastName}!  Это тестовая версия! Я могу прислать тебе правильное произношение английского слова, если знаю его! Просто напиши мне одно слово на английском в чат! Доступные слова: 
+		Abnormal\n
+		Across\n
+		Adopted\n
+		Abroad`);
 	}
 	
 	if(text === '/info'){
